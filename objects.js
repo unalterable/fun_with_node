@@ -3,5 +3,5 @@ function Object1(){
  this.variable = 5;
 }
 
-new Object1();
-console.log(this.variable)
+var obj1 = new Object1();
+console.log(obj1.variable)
