@@ -3,5 +3,5 @@ function Object1(){
  this.variable = 5;
 }
 
-Object1();
+new Object1();
 console.log(this.variable)
