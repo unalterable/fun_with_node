@@ -4,4 +4,7 @@ function Object1(){
 }
 
 var obj1 = new Object1();
-console.log(obj1.variable)
+obj1.variable = 6;
+var obj2 = new Object1();
+console.log(obj1.variable);
+console.log(obj2.variable);
